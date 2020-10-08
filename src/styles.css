@@ -1,0 +1,33 @@
+@import url(//db.onlinewebfonts.com/c/a59a10fc173a405262ecba082980066e?family=Aktiv+Grotesk);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* body {
+    font-size: 18px;
+} */
+.logo-right, .logo-left {
+    flex: 1;
+}
+
+.leftside {
+    max-width: 640px;
+}
+
+.picbox {
+    width: 50%;
+}
+
+.sidenav {
+    position: -webkit-sticky; /* Safari & IE */
+    position: sticky;
+    top: 70;
+}
+
+.tagline {
+    max-width: 280px;
+}
+
