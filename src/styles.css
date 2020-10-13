@@ -1,4 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/a59a10fc173a405262ecba082980066e?family=Aktiv+Grotesk);
+@import url(//use.typekit.net/ysa1ltb.js);
+
 
 @tailwind base;
 @tailwind components;
@@ -6,9 +7,16 @@
 
 
 
-/* body {
-    font-size: 18px;
-} */
+body {
+
+    font-family: "aktiv-grotesk-std",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    
+    }
+
 .logo-right, .logo-left {
     flex: 1;
 }
@@ -18,7 +26,7 @@
 }
 
 .picbox {
-    width: 50%;
+    width: 45%;
 }
 
 .sidenav {

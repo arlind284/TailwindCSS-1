@@ -13,12 +13,17 @@ module.exports = {
         btxt: "#0D1F35",
         lclr: "#838383",
         ftr: "#0D1F35",
+        ftrclr: "#0D1F35B3",
+        linkclr: "#2A97CF",
       },
       fontFamily: {
-        body: ['Aktiv Grotesk']
+        body: ['Aktiv Grotesk'],
+      },
+      fontSize: {
+        'header': '15px',
       },
       spacing: {
-        '20': '16.5rem',
+        '20': '19.5rem',
       },
     },
   },
